@@ -1,0 +1,50 @@
+<!-- En esta tarea necesitamos tu ayuda para completar los enlaces en nuestra página de información sobre Ballenas:
+
+El primer enlace debería estar vinculado a una página llamada whales.html, que está en el mismo directorio que la página actual.
+También queremos agregarle un cuadro de información ("tooltip") cuando pase el puntero sobre el enlace, que le diga al usuario que la página incluye informacion sobre las Ballenas azules y las Ballenas blancas.
+El segundo enlace deberá convertirse en un vínculo que abra un correo electrónico en la aplicación de correo por defecto del usuario, con el destinatario "whales@example.com".
+Conseguirás un punto de bonificación si tambien configuras que la línea del asunto del correo electrónico tenga como texto predeterminado "Preguntas sobre Ballenas". -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Links: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin: 0;
+        color: purple;
+      }
+
+      p {
+        color: gray;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Information on Whales</h1>
+
+    <p>For more information on our conservation activities and which Whales we study,
+    see our <a target="_blank" href="whales.html" title="la página incluye informacion sobre las Ballenas azules y las Ballenas blancas">Whales page</a>.</p>
+
+    <p>If you want to ask our team more questions, feel free to <a href="mailto:whales@example.com?subject=Preguntas sobre Ballenas">email us</a>.</p>
+
+  </body>
+
+</html>
